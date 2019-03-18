@@ -1,17 +1,22 @@
 define(['Application'], 
   function(Application) {
-    describe('Main Application file', function() {
+    describe.only('Main Application file unit tests', function() {
       beforeEach(function() {
-        var application = new Application(); 
-
-        application.init(); 
+        fixture.setBase('spec/js/fixtures');
+        fixture.load('Content.html');
       }); 
 
       afterEach(function() {
+        fixture.cleanup();
       }); 
 
-      it('should fail', function() {
-        expect(true).to.be.false; 
+      it('should call the _addContent method once when app is initialised', function() {
+        var application = new Application(); 
+        var addContentSpy = sinon.spy(application, '_addContent');
+
+        application.init(); 
+
+        expect(addContentSpy.calledOnce).to.be.true; 
       }); 
     }); 
   }

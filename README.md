@@ -3,12 +3,13 @@
 The goal of this work is to produce a client-side Web application to help a child understand multiplication.
 
 The main features of this are:
-- a grid of all the numbers from 1 to 144
+- it displays a grid of all the numbers from 1 to 144
 
 ## Steps
 
 1. Add basic markup
 This adds the index.html file
+I have injected the main content via JavaScript. This is partly to save time (it would most likely be done server side in a real world example) but also feels justified because the app itelf requires JavaScript to work at all. 
 
 ## Setting up
 
