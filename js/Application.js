@@ -1,4 +1,5 @@
-define(['Content'], function(Content) {
+define(['Content'],  
+	function(Content) {
   var Application = function() {}; 
 
   Application.prototype.init = function() {

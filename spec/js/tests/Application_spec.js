@@ -1,6 +1,6 @@
 define(['Application'], 
   function(Application) {
-    describe.only('Main Application file unit tests', function() {
+    describe('Main Application file unit tests', function() {
       beforeEach(function() {
         fixture.setBase('spec/js/fixtures');
         fixture.load('Content.html');

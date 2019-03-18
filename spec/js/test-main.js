@@ -17,7 +17,8 @@ require.config({
   baseUrl: '/base',
 
   paths: {
-    Application: 'js/Application'
+    Application: 'js/Application', 
+    Content: 'js/Content'
   }, 
 
   // dynamically load all test files
