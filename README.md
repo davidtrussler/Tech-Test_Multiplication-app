@@ -8,8 +8,10 @@ The main features of this are:
 ## Steps
 
 1. Add basic markup
-This adds the index.html file
-I have injected the main content via JavaScript. This is partly to save time (it would most likely be done server side in a real world example) but also feels justified because the app itelf requires JavaScript to work at all. 
+This adds the index.html file and injects the main content via JavaScript. This is partly to save time (it would most likely be done server side in a real world example) but also feels justified because the app itself requires JavaScript to work at all. 
+
+2. Add styles for app
+This is done mobile-first, allowing for 3 break points. These have been chosen according to the layout rather than the device. 
 
 ## Setting up
 
