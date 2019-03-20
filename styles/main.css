@@ -28,6 +28,14 @@ h1 {
 	text-decoration: none; 
 }
 
+.grid__number.active {
+	background: darkturquoise; 
+}
+
+.grid__number.multiple {
+	background: paleturquoise; 
+}
+
 .grid__number:hover {
 	background: lightsteelblue; 
 }

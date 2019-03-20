@@ -13,6 +13,8 @@ This adds the index.html file and injects the main content via JavaScript. This 
 2. Add styles for app
 This is done mobile-first, allowing for 3 break points. These have been chosen according to the layout rather than the device. 
 
+3. Add the logic for the app
+
 ## Setting up
 
 This app uses Karma as a test runner for JavaScript Unit Tests, together with Mocha testing framework and Chai

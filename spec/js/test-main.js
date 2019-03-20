@@ -18,7 +18,8 @@ require.config({
 
   paths: {
     Application: 'js/Application', 
-    Content: 'js/Content'
+    Content: 'js/Content', 
+    Logic: 'js/Logic'
   }, 
 
   // dynamically load all test files
